@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyTranslator App</title>
+  <link rel="stylesheet" href="../CSS/Css_Sign%20up.css">
+</head>
+<body>
+<div>
+    <img id="Back" src="../Images/Unknown.jpeg" alt="Italian Trulli">
+</div>
+<div>
+  <div class="left">
+    <h1>Sign up</h1>
+
+<form action="success.html">
+
+    <label>
+      <input type="text" name="username" id="username" required placeholder="Username" />
+    </label>
+    <label>
+      <input type="email" name="email" id="email" required placeholder="E-mail" />
+    </label>
+    <label>
+      <input onmouseover="enabel()" id="pass1" type="password" name = "pass" required placeholder="Password" />
+    </label>
+    <label>
+      <input onmouseover="enabel()" id="confirm_pass" type="password" name = "confirm_pass"
+             required placeholder="Confirm Password" />
+    </label>
+    <button type="submit" onclick="coPassword(); store()"  name="signup_submit" value="Sign up">Sign up</button>
+    <a href="First%20Page.html">
+        <img id="Backto" src="../Images/115-1153942_white-home-icon-png-white-home-logo-transparent.png">
+    </a>
+</form>
+      <p id="normal" class="Normal_class">☒ Use same password</p>
+      <p id="normal2" class="Normal_class2">🗹 Password Matched</p>
+  </div>
+
+</div>
+<script src="../js/SIgnUp.js"></script>
+</body>
+
